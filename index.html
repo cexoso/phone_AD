@@ -5,23 +5,30 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css"></head>
 <body>
-    <img src="tencent_login_bg.png" alt="">
-    <div id="console">
-    </div>
-    <input name="vCode" type="text" placeholder="请输入通关密码">    
-    <button id='go' class="success"></button>
-
+    <img id="bg" src="res/index_bg.jpg">
+    <img id="qc" src="res/index_qc.png">
+    <div class="mask" style="display:none"></div>
+    
+        <div class="panel container" style="display:none">
+            <div class="panel-heading">注册</div>
+            <div class="panel-body">
+                <div class="input">
+                    <label class="icon" id="user"></label>
+                    <input type="text" name="user" placeholder="请输入用户名"></div>
+                <div class="input">
+                    <label class="icon" id="phone"></label>
+                    <input type="text" name="phone" placeholder="请输入手机号"></div>
+                <button id="btn">马上注册</button>
+                <div class="tips">注册有惊喜，大礼送不停</div>
+            </div>
+        </div>
+    
 </body>
     <script src="zepto.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="app.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/html" id="pop">
-        <form>
-            <input type="text" name="key">
-            <input type="text" name="value">
-            <button type="button" id="ok">确定</button>
-        </form>
+    <script>
+    indexHtmlInit();
     </script>
 </html>
