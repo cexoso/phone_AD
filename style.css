@@ -157,3 +157,12 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
     background-size: 95vw 100%;
     z-index: 1;
 }
+.errorTips{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);    
+    border: 2px dashed black;
+    font-size: 20px;
+}
