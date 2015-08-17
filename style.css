@@ -139,14 +139,19 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
     left: 50%;
     transform: translate(-50%,-50%);
    -webkit-transform: translate(-50%,-50%);    
+   background: url('res/tipsd.jpg') no-repeat top left;
+    background-size: 95vw 100%;
    text-align: center;
 }
 #codeMask{
     height: 7.4%;
-    width: 95%;
+    width: 95vw;
     position: absolute;
-    top: 9.4%;
-    right: 2.5%;
-    background-color: rgb(242,220,202);
+    top: 13.2%;
+    transform: translate(0,-50%);
+   -webkit-transform: translate(0,-50%);    
+    right:2.5%;
+    background: url('res/tipsd.jpg') no-repeat top left;
+    background-size: 95vw 100%;
     z-index: 1;
 }

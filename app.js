@@ -14,7 +14,10 @@
     }
     function showCode(str){
         $('#code').text(str);
-        $('#codeMask').animate({width:0},1000);
+        $('#codeMask').animate({
+            width:0,
+            backgroundPosition:'-95vw 100%'
+        },1000);
     }
     window.tipsHtmlInit=function(){
         showCode('KCf970Hdd1');
