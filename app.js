@@ -7,9 +7,9 @@
             $('.mask').click(function(){
                 $('.mask,.container').hide();
             });   
-            $('#fresh').click(function(){
-                window.location.reload();
-            })
+            // $('#fresh').click(function(){
+            //     window.location.reload();
+            // })
         })    
     }
     function showCode(str){
