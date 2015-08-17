@@ -1,7 +1,7 @@
 (function(window){
     window.indexHtmlInit=function(){
         $(function(){    
-            $('#bg').click(function(){
+            $('#clickArea').click(function(){
                 $('.mask,.container').show();
             });
             $('.mask').click(function(){

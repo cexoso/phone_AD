@@ -45,13 +45,15 @@ input::-moz-placeholder { /* Mozilla Firefox 19+ */
 input:-ms-input-placeholder { /* Internet Explorer 10+ */
     color:#cccccc;
 }
-#qc{
+#clickArea{
   position: absolute;
-  top: 83%;
-  width: 84%;
+  top: 51.5%;
+  height: 27%;
+  width: 89%;
   left: 50%;
   transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
+  z-index: 1;
 }
 .mask{
     position: absolute;
