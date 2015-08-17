@@ -36,7 +36,7 @@
         
         var src=srcMap[code]||defaultSrc;
         $('#bg').attr({src:src}).show();
-        if(code=1){
+        if(code==1){
             var a=$('<div class="errorTips">')
             .text('123123')
             .appendTo($('body'));
