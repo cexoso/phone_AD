@@ -1,0 +1,109 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+body{
+    position: relative;
+    
+}
+body img{
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width:480px) {
+    body{font-size:10px;-webkit-text-size-adjust: none;}
+}
+@media screen and (min-width:481px) and (max-width:640px){
+    body{font-size:15px;-webkit-text-size-adjust: none;}
+}
+@media screen and (min-width:641px) and (max-width:720px){
+    body{font-size:20px;-webkit-text-size-adjust: none;}
+}
+@media screen and (min-width:721px){
+    body{font-size:22.5px;-webkit-text-size-adjust: none;}
+    input{font-size:22.5px;}
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#838383;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#838383;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#838383;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#838383;
+}
+
+input[name=vCode],input[name=vCode]:hover,input[name=vCode]:active{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    width: 73%;
+    height: 3em;
+    line-height: 100%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+input[name=vCode]:active,input[name=vCode]:hover,input[name=vCode]:focus{
+    border-color: #000000;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.4);
+}
+#console{
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 73%;
+    z-index: 1;
+}
+#go{
+    background: #f6c29e url("tencent_login_btn.png") no-repeat scroll center center / auto 100%;
+    border: 1px solid #f6c29e;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 6%;
+    left: 50%;
+    position: absolute;
+    top: 31.9%;
+    transform: translate(-50%, -50%);
+    width: 73%;
+}
+
+.success{
+     background-color: #5cb85c;
+     border-color: #4cae4c;
+}
+
+#console{
+    margin: 10px 0;
+    visibility: none;
+    height: 30px;
+}
+
+.error{
+    color: #de0707;
+    visibility: visible;
+}
+.ok{
+    color: #5cb85c;
+    visibility: visible;
+}
+#qc{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    width: 40%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+}
