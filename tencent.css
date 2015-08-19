@@ -30,25 +30,25 @@ body img{
     input{font-size:22.5px;}
 }
 input::-webkit-input-placeholder { /* WebKit browsers */
-    color:#cccccc;
+    color:#838383;
 }
 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:#cccccc;
+    color:#838383;
 }
 input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:#cccccc;
+    color:#838383;
 }
 input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:#cccccc;
+    color:#838383;
 }
 
 input[name=vCode],input[name=vCode]:hover,input[name=vCode]:active{
     position: absolute;
-    top: 30%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
-    width: 60%;
+    width: 73%;
     height: 3em;
     line-height: 100%;
     border: 1px solid transparent;
@@ -69,18 +69,18 @@ input[name=vCode]:active,input[name=vCode]:hover,input[name=vCode]:focus{
 }
 #go{
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 32.9%;
+    left: 26%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
-    width: 60%;
-    height: 3em;
+    width: 26%;
+    height: 5%;
     cursor: pointer;
     border: 1px solid #f6c29e;
     border-radius: 4px;
     background: url("tencent_login_btn.png") no-repeat scroll center center;
     background-color: #f6c29e;
-    background-size: auto 100%;
+    background-size: 80% auto;
 }
 
 .success{
@@ -101,4 +101,12 @@ input[name=vCode]:active,input[name=vCode]:hover,input[name=vCode]:focus{
 .ok{
     color: #5cb85c;
     visibility: visible;
+}
+#qc{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    width: 40%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
 }
