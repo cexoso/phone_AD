@@ -59,28 +59,25 @@ input[name=vCode]:active,input[name=vCode]:hover,input[name=vCode]:focus{
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.4);
 }
 #console{
-    position: absolute;
-    top: 21%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    width: 60%;
-    height:6.7%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 73%;
+    z-index: 1;
 }
 #go{
-    position: absolute;
-    top: 32.9%;
-    left: 26%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    width: 26%;
-    height: 5%;
-    cursor: pointer;
+    background: #f6c29e url("tencent_login_btn.png") no-repeat scroll center center / auto 100%;
     border: 1px solid #f6c29e;
     border-radius: 4px;
-    background: url("tencent_login_btn.png") no-repeat scroll center center;
-    background-color: #f6c29e;
-    background-size: 80% auto;
+    cursor: pointer;
+    height: 6%;
+    left: 50%;
+    position: absolute;
+    top: 31.9%;
+    transform: translate(-50%, -50%);
+    width: 73%;
 }
 
 .success{
